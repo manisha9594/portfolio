@@ -1,0 +1,65 @@
+{
+  "profile": {
+    "firstName": "Manisha",
+    "lastName": "Anantharam",
+    "title": "Senior Python AI Engineer",
+    "location": "Chicago",
+    "availability": "Based in Chicago · Open across the US",
+    "summary": "Senior Python AI Engineer building dependable LLM products, agentic workflows, and full-stack applications. I turn ambitious ideas into tested, usable systems—with clean architecture at the core.",
+    "facts": [
+      { "label": "Focus", "value": "Applied AI & intelligent products" },
+      { "label": "Stack", "value": "Python, FastAPI, React, AWS" },
+      { "label": "Depth", "value": "10+ years in software engineering" },
+      { "label": "Approach", "value": "Reliable, tested, production-minded" }
+    ],
+    "github": "https://github.com/manisha9594",
+    "githubUser": "manisha9594",
+    "linkedin": "https://www.linkedin.com/in/manisha-a-engineer",
+    "email": "manisha090594@gmail.com",
+    "contactBlurb": "I’m open to senior Python, AI, and full-stack opportunities across the United States. LinkedIn is the fastest way to reach me."
+  },
+  "projects": [
+    {
+      "title": "Job Search Copilot",
+      "description": "Analyzes job descriptions, scores resume fit, tailors bullets, drafts recruiter outreach, tracks applications, and generates interview questions. The API, CLI, and React interface run offline in demo mode, with 35 tests passing.",
+      "status": "Publishing to GitHub",
+      "tags": ["Python", "FastAPI", "React", "TypeScript"]
+    },
+    {
+      "title": "Voice AI Assistant",
+      "description": "A real-time conversational system with barge-in handling, voice function calling, rolling memory, per-stage latency instrumentation, and a live pipeline visualizer.",
+      "status": "Publishing to GitHub",
+      "tags": ["Python", "Asyncio", "WebSockets", "React"]
+    },
+    {
+      "title": "RAG Knowledge Assistant",
+      "description": "Answers questions from private documents with cited sources, a React and TypeScript chat interface, MCP server integration, and an evaluation harness that can run without an API key.",
+      "status": "Publishing to GitHub",
+      "tags": ["RAG", "Python", "MCP", "LLM evals"]
+    },
+    {
+      "title": "Agentic Troubleshooter",
+      "description": "A LangGraph ReAct agent that diagnoses issues step by step, chooses tools, and returns actionable resolutions through a FastAPI service and command-line interface.",
+      "status": "Publishing to GitHub",
+      "tags": ["LangGraph", "FastAPI", "ReAct"]
+    }
+  ],
+  "repos": [
+    { "name": "kb-assistant", "description": "A Python knowledge-base assistant for retrieving useful answers from documents.", "tags": ["python"], "language": "Python", "color": "#3572A5", "stars": 1 },
+    { "name": "NexCart-POC", "description": "A full-stack commerce proof of concept built with React, FastAPI, and the Fake Store API.", "tags": ["python", "react"], "language": "HTML", "color": "#e34c26", "extra": "React + FastAPI" },
+    { "name": "VUE-Kanban-Dashboard", "description": "A task-focused Kanban board dashboard built with Vue.js.", "tags": ["vue"], "language": "Vue", "color": "#41b883", "stars": 1 },
+    { "name": "air-bnb-price-prediction", "description": "A Jupyter notebook exploring Airbnb price prediction with linear regression.", "tags": ["python"], "language": "Jupyter Notebook", "color": "#DA5B0B" },
+    { "name": "FeedbackFrontier", "description": "An application for collecting, organizing, and working with user feedback.", "tags": ["react"], "language": "JavaScript", "color": "#f1e05a" },
+    { "name": "React-Node--web-app", "description": "A full-stack web application combining a React front end with a Node.js back end.", "tags": ["react"], "language": "React", "color": "#61dafb", "extra": "Node.js" },
+    { "name": "vue-kanban.github.io", "description": "A deployed Vue Kanban demonstration hosted through GitHub Pages.", "tags": ["vue"], "language": "HTML", "color": "#e34c26", "extra": "Vue" },
+    { "name": "React-TodoList", "description": "A focused task-list application built with React.", "tags": ["react"], "language": "React", "color": "#61dafb" }
+  ],
+  "skills": [
+    { "title": "AI & orchestration", "items": ["LLMs & prompt engineering", "RAG pipelines", "LangGraph & AI agents", "MCP & evaluation"] },
+    { "title": "Backend systems", "items": ["Python & FastAPI", "C# & .NET", "REST APIs & microservices", "PostgreSQL & Redis"] },
+    { "title": "Product interfaces", "items": ["React & TypeScript", "JavaScript", "Vue.js", "Accessible HTML & CSS"] },
+    { "title": "Cloud & delivery", "items": ["AWS", "Docker", "CI/CD", "Production observability"] },
+    { "title": "Engineering practice", "items": ["Clean architecture", "Automated testing", "Performance tuning", "Reliable integrations"] },
+    { "title": "Current interests", "items": ["Agentic workflows", "Voice AI", "LLM evaluation", "Human-centered AI products"] }
+  ]
+}
