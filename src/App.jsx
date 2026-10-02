@@ -5,10 +5,11 @@ import Work from './components/Work.jsx';
 import Repositories from './components/Repositories.jsx';
 import Skills from './components/Skills.jsx';
 import Contact from './components/Contact.jsx';
+import savedData from '../server/data/portfolio.json';
 
 export default function App() {
-  const [data, setData] = useState(null);
-  const [error, setError] = useState('');
+  // Render the bundled content immediately; the API only adds live GitHub star counts.
+  const [data, setData] = useState(savedData);
 
   useEffect(() => {
     fetch('/api/portfolio')
@@ -17,18 +18,15 @@ export default function App() {
         return res.json();
       })
       .then(setData)
-      .catch((err) => setError(err.message));
+      .catch((err) => console.warn(`Showing saved portfolio data: ${err.message}`));
   }, []);
-
-  if (error) return <p className="page-status">Couldn’t load the portfolio: {error}</p>;
-  if (!data) return <p className="page-status">Loading…</p>;
 
   const { profile, projects, repos, skills } = data;
 
   return (
     <>
       <a href="#content" className="skip-link">Skip to content</a>
-      <Nav />
+      <Nav name={`${profile.firstName} ${profile.lastName}`} />
       <main id="content">
         <Hero profile={profile} />
         <Work projects={projects} />

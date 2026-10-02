@@ -56,8 +56,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
 button { font: inherit; }
 :focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; }
 
-.page-status { padding: 40vh 24px 0; text-align: center; color: var(--muted); margin: 0; }
-
 .skip-link {
   position: fixed; top: 12px; left: 12px; z-index: 1000;
   padding: 10px 14px; background: var(--ink); color: var(--page);
@@ -74,8 +72,13 @@ button { font: inherit; }
   backdrop-filter: blur(14px);
 }
 .nav-inner {
-  min-height: 70px; display: flex; align-items: center; justify-content: flex-end; gap: 30px;
+  min-height: 70px; display: flex; align-items: center; justify-content: space-between; gap: 30px;
 }
+.brand {
+  font-family: "Libre Franklin", sans-serif; font-weight: 800; font-size: 1.05rem;
+  letter-spacing: -.03em; text-decoration: none; white-space: nowrap;
+}
+.brand:hover { color: var(--accent); }
 .nav-links { display: flex; align-items: center; gap: 28px; }
 .nav-links a {
   color: var(--ink-soft); text-decoration: none; font-size: .91rem; font-weight: 600;

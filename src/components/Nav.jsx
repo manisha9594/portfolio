@@ -7,7 +7,7 @@ const LINKS = [
   { id: 'skills', label: 'Skills' },
 ];
 
-export default function Nav() {
+export default function Nav({ name }) {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState('');
 
@@ -45,6 +45,7 @@ export default function Nav() {
   return (
     <nav className="site-nav" aria-label="Primary navigation">
       <div className="shell nav-inner">
+        <a className="brand" href="#content" onClick={close}>{name}</a>
         <button
           className="menu-button"
           type="button"
