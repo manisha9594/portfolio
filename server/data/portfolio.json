@@ -3,8 +3,8 @@
     "firstName": "Manisha",
     "lastName": "Anantharam",
     "title": "Senior Python AI Engineer",
-    "location": "Chicago",
-    "availability": "Based in Chicago · Open across the US",
+    "location": "Open to work anywhere",
+    "availability": "Open to opportunities anywhere · Remote or on-site",
     "summary": "Senior Python AI Engineer building dependable LLM products, agentic workflows, and full-stack applications. I turn ambitious ideas into tested, usable systems—with clean architecture at the core.",
     "facts": [
       { "label": "Focus", "value": "Applied AI & intelligent products" },
@@ -16,13 +16,14 @@
     "githubUser": "manisha9594",
     "linkedin": "https://www.linkedin.com/in/manisha-a-engineer",
     "email": "manisha090594@gmail.com",
-    "contactBlurb": "I’m open to senior Python, AI, and full-stack opportunities across the United States. LinkedIn is the fastest way to reach me."
+    "contactBlurb": "I’m open to senior Python, AI, and full-stack opportunities anywhere—remote or on-site. LinkedIn is the fastest way to reach me."
   },
   "projects": [
     {
-      "title": "Job Search Copilot",
+      "title": "JobFit",
       "description": "Analyzes job descriptions, scores resume fit, tailors bullets, drafts recruiter outreach, tracks applications, and generates interview questions. The API, CLI, and React interface run offline in demo mode, with 35 tests passing.",
-      "status": "Publishing to GitHub",
+      "status": "View on GitHub",
+      "url": "https://github.com/manisha9594/Job-Fit",
       "tags": ["Python", "FastAPI", "React", "TypeScript"]
     },
     {
@@ -34,7 +35,8 @@
     {
       "title": "RAG Knowledge Assistant",
       "description": "Answers questions from private documents with cited sources, a React and TypeScript chat interface, MCP server integration, and an evaluation harness that can run without an API key.",
-      "status": "Publishing to GitHub",
+      "status": "View on GitHub",
+      "url": "https://github.com/manisha9594/kb-assistant",
       "tags": ["RAG", "Python", "MCP", "LLM evals"]
     },
     {

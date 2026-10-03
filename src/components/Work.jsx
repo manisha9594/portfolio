@@ -18,7 +18,9 @@ export default function Work({ projects }) {
                 <p>{project.description}</p>
               </div>
               <div className="project-side">
-                {project.status && <span className="project-state">{project.status}</span>}
+                {project.status && (project.url
+                  ? <a className="project-state" href={project.url} target="_blank" rel="noopener noreferrer">{project.status} ↗</a>
+                  : <span className="project-state">{project.status}</span>)}
                 <div className="chips">
                   {project.tags.map((tag) => <span className="chip" key={tag}>{tag}</span>)}
                 </div>

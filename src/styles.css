@@ -155,6 +155,8 @@ main { overflow: hidden; }
   display: inline-flex; padding: 5px 9px; border: 1px solid var(--line);
   color: var(--muted); font-size: .74rem; text-transform: uppercase; letter-spacing: .08em; font-weight: 700;
 }
+a.project-state { text-decoration: none; }
+a.project-state:hover { color: var(--accent); border-color: var(--accent); }
 .chips { display: flex; flex-wrap: wrap; gap: 7px; }
 .chip { background: var(--chip); color: var(--ink-soft); padding: 5px 9px; font-size: .77rem; font-weight: 700; }
 
