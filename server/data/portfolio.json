@@ -2,10 +2,10 @@
   "profile": {
     "firstName": "Manisha",
     "lastName": "Anantharam",
-    "title": "Senior Python AI Engineer",
+    "title": "Senior Full Stack Engineer",
     "location": "Open to work anywhere",
     "availability": "Open to opportunities anywhere · Remote or on-site",
-    "summary": "Senior Python AI Engineer building dependable LLM products, agentic workflows, and full-stack applications. I turn ambitious ideas into tested, usable systems—with clean architecture at the core.",
+    "summary": "Senior Full Stack Engineer building dependable web applications, LLM products, and agentic workflows. I turn ambitious ideas into tested, usable systems—with clean architecture at the core.",
     "facts": [
       { "label": "Focus", "value": "Applied AI & intelligent products" },
       { "label": "Stack", "value": "Python, FastAPI, React, AWS" },
